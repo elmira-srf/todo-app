@@ -1,4 +1,3 @@
-
 FILEPATH = 'todos.txt'
 def get_todos(filepath=FILEPATH):
     """Read a text file and return the list
@@ -16,4 +15,4 @@ def write_todos(todos, filepath=FILEPATH):
 
 print("out of if")
 if __name__ == "__main__":
-    print("Ins ide the if")
+    print("Inside the if")
