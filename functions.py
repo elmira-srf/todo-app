@@ -15,4 +15,4 @@ def write_todos(todos, filepath=FILEPATH):
 
 print("out of if")
 if __name__ == "__main__":
-    print("Inside the if")
+    print("Inside the if") #This will not be printed when imported, it will only be printed when run directly.
