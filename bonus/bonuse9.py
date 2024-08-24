@@ -10,6 +10,7 @@ for i in password:
     # result.append(i.isdigit())
     if i.isdigit():
         digit = True
+        break
 result["digit"] = digit
 
 uppercase = False
