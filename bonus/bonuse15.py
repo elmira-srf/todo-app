@@ -15,7 +15,7 @@ for questions in data:
 
 for index, q in enumerate(data):
     if q['user_choice'] == q['correct_answer']:
-        score + 1
+        score += 1
         result = "Correct Answer"
     else:
         result = "Wrong Answer"
