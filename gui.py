@@ -9,14 +9,16 @@ list_box = sg.Listbox(values=functions.get_todos(), key="todos",
                       enable_events=True, size=[45, 10])
 edit_button = sg.Button("Edit")
 
+layout = [[lable], [input_box, add_button],[list_box, edit_button]]
+
 window = sg.Window('My Do To',
-                   layout=[[lable], [input_box, add_button],[list_box, edit_button]],
+                   layout=layout,
                    font=('Helvetica', 20))
 
 while True:
     event, values = window.read()
-    print(event)
-    print(values)
+    # print(event)
+    # print(values)
     match event:
         case "Add":
             todos = functions.get_todos()

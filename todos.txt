@@ -1,11 +1,8 @@
 study
 play
-My new todo
-edited
-hi
-old
+sing
+dance
+eat
+sleep
 new
-er
 my newest todo
-what?!
-empty
